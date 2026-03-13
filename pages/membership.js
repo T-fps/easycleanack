@@ -32,7 +32,7 @@ const plans = [
   {
     id: 'platinum',
     name: 'Platinum Maintenance',
-    price: '$349',
+    price: '$649',
     period: '/mo',
     cadence: 'Full detail every 2 weeks',
     tagline: 'The ultimate care for your investment.',
@@ -57,7 +57,7 @@ const plans = [
       'Third-row cleaning included',
       'Cancel anytime',
     ],
-    savings: 'Save $449/mo vs. two one-time Platinum Details ($798 value)',
+    savings: 'Save $149/mo vs. two one-time Platinum Details ($798 value)',
     cta: 'Get Started',
   },
 ];
@@ -195,7 +195,7 @@ export default function Membership() {
               },
               {
                 q: 'Is the Platinum plan really every 2 weeks?',
-                a: 'Yes — that\'s 26 full Platinum Details per year. At $349/mo you\'re paying roughly $162 per detail vs. $399 one-time. It\'s the best value we offer.',
+                a: 'Yes — that\'s 26 full Platinum Details per year. At $649/mo you\'re paying roughly $300 per detail vs. $399 one-time. It\'s the best care package we offer.',
               },
               {
                 q: 'Do I need to be home?',

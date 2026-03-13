@@ -119,7 +119,7 @@ export default function Home() {
                 <span className={styles.miniCadence}>Classic Detail · Monthly</span>
               </div>
               <div className={`${styles.miniCard} ${styles.miniCardGold}`}>
-                <span className={styles.miniPrice}>$349<small>/mo</small></span>
+                <span className={styles.miniPrice}>$649<small>/mo</small></span>
                 <span className={styles.miniName}>Platinum Maintenance</span>
                 <span className={styles.miniCadence}>Full Detail · Every 2 Weeks</span>
               </div>
