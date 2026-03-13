@@ -1,0 +1,249 @@
+/* PAGE HEADER */
+.pageHeader {
+  background: var(--navy);
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+.pageHeaderInner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pageHeaderInner p {
+  color: rgba(255,255,255,0.6);
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+/* PACKAGES */
+.packages {
+  background: var(--off-white);
+  padding: 5rem 2rem;
+}
+
+.packagesInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.card {
+  background: var(--white);
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid var(--gray-light);
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+}
+
+.highlight {
+  border-color: var(--gold);
+  box-shadow: 0 4px 20px rgba(200,168,75,0.18);
+}
+
+.badge {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  background: var(--gold);
+  color: var(--navy);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.75rem;
+  z-index: 1;
+}
+
+.cardImg {
+  background-size: cover;
+  background-position: center;
+  min-height: 280px;
+  transition: transform 0.5s;
+}
+
+.card:hover .cardImg {
+  transform: scale(1.03);
+}
+
+.cardBody {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cardHeader h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+.listSection {
+  margin-bottom: 1.25rem;
+}
+
+.listLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 0.6rem;
+}
+
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 1.5rem;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: #4a4540;
+  line-height: 1.4;
+}
+
+.addons {
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--gray-light);
+}
+
+.addon {
+  display: inline-block;
+  margin: 0.3rem 0.4rem 0 0;
+  background: var(--off-white);
+  border: 1px solid var(--gray-light);
+  font-size: 0.78rem;
+  padding: 0.3rem 0.7rem;
+  color: #5a5550;
+}
+
+/* GUARANTEE */
+.guarantee {
+  background: var(--white);
+  padding: 6rem 2rem;
+}
+
+.guaranteeInner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.guaranteeImg {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+  box-shadow: -20px 20px 0 var(--gold);
+}
+
+.guaranteeText p {
+  margin-top: 1.25rem;
+  color: #4a4540;
+  font-size: 1.05rem;
+  max-width: 440px;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background: var(--navy);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.testimonialInner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  color: var(--white);
+  line-height: 1.6;
+  margin: 1.5rem 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.author img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--gold);
+}
+
+.author span {
+  color: var(--gold);
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .cardImg {
+    min-height: 220px;
+  }
+
+  .guaranteeInner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .guaranteeImg {
+    height: 260px;
+    box-shadow: -10px 10px 0 var(--gold);
+    order: -1;
+  }
+
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
