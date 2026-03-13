@@ -199,15 +199,13 @@ body {
   margin: 1.5rem 0;
 }
 
-.footer-social img {
-  width: 28px;
-  height: 28px;
-  opacity: 0.75;
-  transition: opacity 0.2s;
+.footer-social a {
+  color: rgba(255,255,255,0.5);
+  transition: color 0.2s;
 }
 
-.footer-social a:hover img {
-  opacity: 1;
+.footer-social a:hover {
+  color: var(--gold);
 }
 
 .footer-copy {
