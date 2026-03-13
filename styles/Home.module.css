@@ -44,8 +44,8 @@
 }
 
 .heroLogo {
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 280px;
   object-fit: contain;
   margin-bottom: 1.5rem;
   filter: drop-shadow(0 0 40px rgba(200,168,75,0.3));
