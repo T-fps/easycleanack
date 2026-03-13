@@ -202,12 +202,12 @@ body {
 .footer-social img {
   width: 28px;
   height: 28px;
-  filter: brightness(0) invert(0.6);
-  transition: filter 0.2s;
+  opacity: 0.75;
+  transition: opacity 0.2s;
 }
 
 .footer-social a:hover img {
-  filter: brightness(0) saturate(100%) invert(72%) sepia(34%) saturate(500%) hue-rotate(5deg);
+  opacity: 1;
 }
 
 .footer-copy {
