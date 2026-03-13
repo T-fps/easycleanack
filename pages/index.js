@@ -53,10 +53,6 @@ export default function Home() {
             <Link href="/contact" className="btn btn-outline">Book Now</Link>
           </div>
         </div>
-        <div className={styles.heroScroll}>
-          <span>Scroll</span>
-          <div className={styles.scrollLine} />
-        </div>
       </section>
 
       {/* ── ABOUT ── */}
