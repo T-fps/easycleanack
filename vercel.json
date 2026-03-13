@@ -1,3 +1,40 @@
 {
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "redirects": [
+    {
+      "source": "/services-3",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/contact-8",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/platinum-detail-1",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/classic-detail-1",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/platinum-interior",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/classic-interior-1",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/service-page/exterior-detail-2",
+      "destination": "/services",
+      "permanent": true
+    }
+  ]
 }
