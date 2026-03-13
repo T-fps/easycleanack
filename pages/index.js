@@ -42,7 +42,7 @@ export default function Home() {
         <div className={styles.heroOverlay} />
         <div className={styles.heroContent}>
           <img
-            src="/logo.png"
+            src="https://static.wixstatic.com/media/649cd3_0f6f93a78a6145aebc5e9a117e3b520c~mv2.png/v1/fill/w_400,h_400,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/649cd3_0f6f93a78a6145aebc5e9a117e3b520c~mv2.png"
             alt="Easy Clean ACK Logo"
             className={styles.heroLogo}
           />

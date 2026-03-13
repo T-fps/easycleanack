@@ -125,11 +125,6 @@ export default function Contact() {
                   />
                 </div>
                 <button type="submit" className="btn btn-gold">Send Message</button>
-                <p className={styles.formNote}>
-                  * To receive form submissions by email, connect a service like{' '}
-                  <a href="https://formspree.io" target="_blank" rel="noopener noreferrer">Formspree</a>
-                  {' '}in the contact page code.
-                </p>
               </form>
             )}
           </div>
