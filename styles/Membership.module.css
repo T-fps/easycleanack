@@ -220,11 +220,11 @@
 }
 
 /* outline-dark variant (for non-gold card) */
-:global(.btn-outline-dark) {
+.btnOutlineDark {
   background: transparent;
   color: var(--navy);
   border: 1.5px solid var(--navy);
-  display: inline-block;
+  display: block;
   padding: 0.9rem 2.2rem;
   font-family: 'DM Sans', sans-serif;
   font-size: 0.85rem;
@@ -233,9 +233,10 @@
   text-transform: uppercase;
   text-decoration: none;
   transition: all 0.25s;
+  text-align: center;
 }
 
-:global(.btn-outline-dark:hover) {
+.btnOutlineDark:hover {
   background: var(--navy);
   color: var(--white);
 }

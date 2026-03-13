@@ -165,7 +165,7 @@ export default function Membership() {
 
               <Link
                 href="/contact"
-                className={`btn ${plan.popular ? 'btn-gold' : 'btn-outline-dark'} ${styles.cta}`}
+                className={plan.popular ? `btn btn-gold ${styles.cta}` : `${styles.btnOutlineDark} ${styles.cta}`}
               >
                 {plan.cta} →
               </Link>
