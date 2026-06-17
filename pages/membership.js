@@ -23,7 +23,6 @@ const plans = [
     ],
     perks: [
       'Priority scheduling',
-      'Free pet hair touch-up (1x/yr)',
       'Cancel anytime',
     ],
     savings: 'Save $49 vs. one-time Classic Detail + Exterior ($198 value)',
@@ -53,7 +52,6 @@ const plans = [
     perks: [
       'Priority scheduling — first available slot',
       'One complimentary ceramic wax per season ($35 value)',
-      'Pet hair removal included (up to 1x/mo)',
       'Third-row cleaning included',
       'Cancel anytime',
     ],
