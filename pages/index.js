@@ -10,7 +10,7 @@ const services = [
   },
   {
     name: 'Classic Detail',
-    price: 'Starting at $199',
+    price: 'Starting at $249',
     img: 'https://static.wixstatic.com/media/649cd3_5c86fda9bb324ac99801a76878353fff~mv2.jpg/v1/fill/w_800,h_450,al_c,q_85,enc_auto/649cd3_5c86fda9bb324ac99801a76878353fff~mv2.jpg',
   },
   {
